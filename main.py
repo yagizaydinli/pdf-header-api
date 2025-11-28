@@ -10,7 +10,7 @@ MM_PER_INCH = 25.4
 
 app = FastAPI(title=APP_TITLE)
 origins = [
-    "http://localhost:5173",  
+    "*",  
 ]
 
 app.add_middleware(
